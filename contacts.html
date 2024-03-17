@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Corrected the charset attribute value -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Removed the empty <link /> tag -->
+    <title>Family Reunion</title>
+    <!-- Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="info.html">Info</a></li>
+        <!-- Corrected the text from 'InFo' to 'Info' -->
+        <li><a href="contacts.html">Contact</a></li>
+        <!-- Corrected the file name to lowercase 'contacts.html' for consistency -->
+        <li><a href="familyphotos.html">Family Photos</a></li>
+        <!-- Corrected the file name to lowercase 'familyphotos.html' and adjusted the text for readability -->
+      </ul>
+    </nav>
+
+    <div id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+
+    <!-- Removed the incomplete <script> tag for the Google Maps API as it's not used and Leaflet is included instead -->
+    <script src="app.js"></script>
+  </body>
+</html>

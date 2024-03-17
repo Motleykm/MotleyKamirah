@@ -1,0 +1,144 @@
+body {
+  background-image: url(222A59A4-4BE9-4596-AF69-9B6424CA5F50.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: Cover;
+  margin: 0px;
+}
+.p-color {
+  color: gold;
+}
+
+/* Add your CSS styling here */
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Icon styles for phone and email */
+.icon-phone,
+.icon-email {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+}
+
+.icon-phone {
+  background-image: url("phone-icon.png"); /* Replace with your phone icon path */
+}
+
+.icon-email {
+  background-image: url("email-icon.png"); /* Replace with your email icon path */
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 4px #b9b314;
+  text-transform: uppercase;
+  word-spacing: 10px;
+}
+
+.introduction {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.introduction h2 {
+  color: #333;
+}
+
+.introduction p {
+  color: #666;
+}
+
+/* Style the navigation bar */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ebeed1;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Keep the navbar on top of other elements */
+}
+
+.navbar ul {
+  list-style-type: none; /* Removes the bullet points from the list */
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  padding: 0 10px; /* Spacing between nav items */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(8, 6, 6);
+  display: block;
+}
+
+.navbar a:hover {
+  color: #ddd; /* Change the color for hover effect */
+}
+
+.wrapped-main {
+  width: 900px;
+  margin: 0 auto;
+}
+table {
+  width: 70%;
+}
+td {
+  border: 2px solid #002868;
+}
+th {
+  border: 2px solid #b9b314;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 4px #261dcb;
+  text-transform: uppercase;
+  word-spacing: 10;
+}
+
+body,
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.content img {
+  display: block; /* This will ensure the image does not sit inline with the text */
+  margin: 20px auto; /* This will add space above and below the image, and center it horizontally */
+  max-width: 100%; /* Ensures the image is responsive and fits within the container */
+  height: auto; /* Maintains the aspect ratio of the image */
+}
